@@ -49,7 +49,7 @@ def piglatinize(sent)
     w2 = let.join("")
     w2 + "way"
 end
-end
+end.join(" ")
 end
 
 
