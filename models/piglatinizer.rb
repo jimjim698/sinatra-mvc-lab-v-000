@@ -10,13 +10,7 @@ class PigLatinizer
 
   end
 
-def full_sentence
-  sent_array = @text.split(" ")
-  sent_array.collect do |word|
-    piglatinize(word)
-  end
 
-end
 
   def vowel?(word)
     word = word.split("")
