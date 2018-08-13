@@ -29,6 +29,7 @@ end
 
 def piglatinize(sent)
   sent_array = sent.split(" ")
+  sent_array.collect do |word|
   let = word.split("")
   word.each do |let|
   if vowel?(let[0]) && let[0] == "e" &&  let[2] == "n"
@@ -48,7 +49,7 @@ def piglatinize(sent)
   else
     w2 = let.join("")
     w2 + "way"
-end 
+end
 end
 end
 
