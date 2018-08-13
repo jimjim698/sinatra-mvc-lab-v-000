@@ -4,11 +4,11 @@ class PigLatinizer
 
   attr_reader :text
 
-  def initialize(text = nil)
-binding.pry
-    @text = text
+  #def initialize(text = nil)
+#binding.pry
+  #  @text = text
 
-  end
+#  end
 
 
 
